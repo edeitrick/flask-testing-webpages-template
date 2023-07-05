@@ -1,6 +1,6 @@
 body {
   background: #fafafa;
-  color: #333333;
+  color: #b50000;
   margin-top: 5rem;
 }
 
@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #444444;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -33,11 +33,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .article-title {
-  color: #444444;
+  color: #b50000;
 }
 
 a.article-title:hover {
-  color: #428bca;
+  color: #bf0000;
   text-decoration: none;
 }
 
