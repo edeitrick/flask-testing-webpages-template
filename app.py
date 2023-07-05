@@ -7,10 +7,10 @@ app = Flask(__name__)
 proxied = FlaskBehindProxy(app)
 app.config['SECRET_KEY'] = 'c29bcfa698752666def85f68880d22d8'
 
-@app.route('/update_server', methods=['POST'])
+@app.route("/update_server", methods=['POST'])
 def webhook():
     if request.method == 'POST':
-        repo = git.Repo('path/to/git_repo')
+        repo = git.Repo('/home/seoflaskexample/flask-hosted-example')
         origin = repo.remotes.origin
         origin.pull()
         return 'Updated PythonAnywhere successfully', 200
